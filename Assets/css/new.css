@@ -1,0 +1,398 @@
+/*div1*/
+.head {
+    background-color: #ffc400;
+    width: 100%;
+}
+.headicon{
+    margin-top:10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.iconhead {
+    color: white;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .head {
+        height:50px;
+    } }
+
+/*div2*/
+.navbar-toggler {
+    background-color: #ffc400;
+}
+
+li{
+    line-height: 40px;
+    list-style-type: none;
+    width: 100px;
+    float: right;
+    height: 40px;
+    display: block;
+  }
+  
+  li ul {
+      display: none;
+      background-color: #F5F5F5;
+      color: black;
+      width:100%;
+      position: absolute;
+      left: 0;
+  }
+  li:hover {
+    color:#ffc400;
+    cursor: pointer;
+  }
+  
+  li:hover>ul {
+    display: block;
+  }  
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background-color:#ffc400;
+  }
+  .dropopen{
+    font-weight: 450;
+    font-size: 15px;
+    margin-top: -21px;
+    margin-bottom: -1rem;
+  }
+  .dropopen:hover{
+    color: #ffc400;
+  }
+  .opendropone{
+    position: absolute;
+    background:#F5F5F5;
+    top:314%;
+    left:50%;
+    z-index:9999;
+    transform:translate(-50%,-50%);
+  }
+  .opendroptwo{
+         position: absolute;
+      background:#F5F5F5;
+      top:345%;
+      left:50%;
+      z-index:9999;
+    transform:translate(-50%,-50%);
+  }
+  .opendropthree {
+         position: absolute;
+      background:#F5F5F5;
+      top:435%;
+      left:50%;
+      z-index:9999;
+    transform:translate(-50%,-50%);
+  }
+  
+   @media (min-width: 992px) and (max-width: 1199.98px) { .opendroptwo {
+           top:498%;
+             position: absolute;
+      background:#F5F5F5;
+      left:50%;
+      z-index:9999;
+    transform:translate(-50%,-50%);
+      }
+      
+   }
+   @media (min-width: 768px) and (max-width: 991.98px) {
+      .opendroptwo {
+           top:125%;
+      }
+      .opendropone {
+          top:80%;
+      }
+      .opendropthree {
+          top:120%;
+      }
+   }
+  @media (min-width: 576px) and (max-width: 767.98px) {  .opendroptwo {
+           top:138%;
+      } 
+       .opendropone {
+          top:105%
+      }
+       .opendropthree {
+          top:220%;
+      }
+  } 
+  @media (max-width: 575.98px) { 
+     .opendroptwo {
+           top:137%;
+      }
+          .opendropone {
+          top:106%
+      }
+          .opendropthree {
+          top:221%;
+      }
+  }
+
+  /*div3*/
+.imgcarouselone{
+    left: 8%;
+    top:80px;
+}
+
+ /*div4*/
+.s-feature-box {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffc400;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.s-feature-box:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*div5*/
+.line {
+    margin-left: initial;
+}
+.progress {
+    background-color: rgb(61, 61, 61);
+}
+body, html {
+    height: 100%;
+}
+
+/*responsive*/
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: -15px;
+}
+/*div7*/
+
+.parallax {
+    background-image: url('../image/tiwari.png');
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*div8*/
+.change:hover {
+    color: black !important;
+}
+/*div9*/
+.parallaxtwo {
+    background-image: url('../image/uuuu.jpg');
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tab button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+ .tab button:hover {
+        background-color: #ddd;
+    }
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+/*div10*/
+.circle {
+    background: #F3F2F2;
+    width: 250px;
+    height: 250px;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;
+}
+
+.item-number {
+    position: absolute;
+    color: #333333;
+    padding: 8px 0;
+    right: 46px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #ffc400;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .circle {
+    width: 227px;
+    height: 221px;
+}
+.item-number {
+   right: 17px;
+    top: 7px;
+}
+ }
+@media (min-width: 768px) and (max-width: 991.98px) {
+     .item-number {
+    right: 83px;
+}}
+@media (min-width: 576px) and (max-width: 767.98px) {  
+       .item-number {
+    right: 173px;
+} }
+@media (max-width: 575.98px) {      .item-number {
+    right: 114px;
+} } 
+
+/*div12*/
+.parallaxone {
+    background-image: url('../image/new.jpg');
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offer {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    padding: 5px 0;
+    left: 2px;
+    top: 15px;
+    width: 123px;
+    box-shadow: 0px 0px 3px rgb(0 0 0 / 30%);
+    -webkit-transform: rotate(45deg);
+    background-color: #ffc400;
+}
+.sidebox {
+    width: 93px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+.oferboxsize{
+    width: 106%;   
+}
+
+
+@media (max-width: 575.98px) { 
+    .oferboxsize{
+    width: 60%;
+    margin-left: 93px;
+} 
+.sidebox {
+    right:75px;
+}
+} 
+@media (min-width: 575.98px) and (max-width: 767.98px) { 
+  .oferboxsize{
+    width: 60%;
+    margin-left: 93px;
+} 
+  .sidebox {
+    right:116px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) { .oferboxsize{
+    width: 90%;
+}  
+.sidebox {
+    right:43px;
+    }
+}
+/*div14*/
+.parallaxthree {
+    background-image: url('../image/happy.jpg');
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+/*div15*/
+.img-circle {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.commentbox {
+    border: 1px solid #ffc400;
+    padding: 15px 15px 0 15px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+.carouslicon li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators {
+    margin-bottom: -39px;
+}
+
+/*div19*/
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.btncolor:hover {
+    background-image: none !important;
+    background-color: #ffc400 !important;
+    border: solid white 1px;
+}
